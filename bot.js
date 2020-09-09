@@ -1846,3 +1846,19 @@ Structures.extend("GuildEmoji", (GuildEmoji) => class extends GuildEmoji {
 //---------------------------------------------------------------------
 
 Files.startBot();
+
+// EXPRESS WEB BY VALOR
+
+const express = require('express');
+
+const webApp = express();
+
+const webPort = 3000;
+
+webApp.get('/', (req, res) => {
+	res.send('by Valor with <3');
+});
+
+webApp.listen(webPort, () => {
+	console.log(`Web sitesi ${webPort} portu üzerinden dinleniyor.`);
+});
