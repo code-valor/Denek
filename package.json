@@ -18,7 +18,8 @@
     "steam-provider": "^0.3.2",
     "valid-url": "^1.0.9",
     "weather-js": "^2.0.0",
-    "ytdl-core": "latest"
+    "ytdl-core": "latest",
+    "dotenv": "^8.2.0"
   },
   "is-music-bot": true
 }
