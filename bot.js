@@ -4,6 +4,8 @@
  * Robert Borghese
  ******************************************************/
 
+require('dotenv').config();
+
 const DBM = {};
 DBM.version = "1.6.10";
 
